@@ -17,4 +17,10 @@ class PagesController < ApplicationController
   @local_title = "About"
   @title = @global_title + " | " +@local_title
   end
+
+  def help
+  @global_title = "Ruby on Rails Tutorial Sample App"
+  @local_title = "Help"
+  @title = @global_title + " | " +@local_title
+  end
 end
