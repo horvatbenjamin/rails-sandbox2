@@ -1,26 +1,18 @@
 class PagesController < ApplicationController
-  
+
   def home
-  @global_title = "Ruby on Rails Tutorial Sample App"
-  @local_title = "Home"
-  @title = @global_title + " | " +@local_title
+  @title = "Home"
   end
 
   def contact
-  @global_title = "Ruby on Rails Tutorial Sample App"
-  @local_title = "Contact"
-  @title = @global_title + " | " +@local_title
+  @title = "Contact"
   end
 
   def about
-  @global_title = "Ruby on Rails Tutorial Sample App"
-  @local_title = "About"
-  @title = @global_title + " | " +@local_title
+  @title = "About"
   end
 
   def help
-  @global_title = "Ruby on Rails Tutorial Sample App"
-  @local_title = "Help"
-  @title = @global_title + " | " +@local_title
+  @title = "Help"
   end
 end
